@@ -8,7 +8,7 @@ module.exports = {
         app: './src/index.js'
     },
     devServer: {
-        contentBase: './diist',
+        contentBase: './dist',
     },
     devtool: 'inline-source-map',
     plugins: [
