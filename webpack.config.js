@@ -8,7 +8,9 @@ module.exports = {
         app: './src/index.js'
     },
     devServer: {
-        contentBase: './dist',
+        contentBase: path.join(__dirname, 'dist'),
+        compress: true,
+        port: 9001
     },
     devtool: 'inline-source-map',
     plugins: [
